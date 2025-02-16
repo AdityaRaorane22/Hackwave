@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  padding: 8px;
+  margin-bottom: 15px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.predict-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.predict-button:hover {
+  background-color: #45a049;
+}
+
+.prediction-container {
+  margin-top: 30px;
+}
+
+.prediction-text {
+  font-size: 1.5rem;
+  color: #4CAF50;
+}
